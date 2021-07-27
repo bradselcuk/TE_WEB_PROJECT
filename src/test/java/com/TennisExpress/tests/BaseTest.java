@@ -1,4 +1,4 @@
-package com.weborders.tests;
+package com.TennisExpress.tests;
 
 import com.TennisExpress.utilities.BrowserUtilities;
 import com.TennisExpress.utilities.ConfigurationReader;
