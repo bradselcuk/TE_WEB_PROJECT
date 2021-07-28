@@ -11,7 +11,10 @@ public abstract class BasePage {
     protected WebDriver driver = Driver.getDriver();
     protected WebDriverWait wait = new WebDriverWait(driver, 20);
 
-   public BasePage(){
-       PageFactory.initElements(driver, this);
-   }
+    @FindBy(css = "[src='/images/logo.gif']")
+    public WebElement logo;
+
+    public BasePage() {
+        PageFactory.initElements(driver, this);
+    }
 }

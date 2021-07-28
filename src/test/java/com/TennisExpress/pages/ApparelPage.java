@@ -12,4 +12,5 @@ public class ApparelPage extends BasePage{
     @FindBy(xpath = "//nav[@class='web-nav']//a[@href='/mens-nike-tennis-apparel']")
     public WebElement nikeButton;
 
+
 }
