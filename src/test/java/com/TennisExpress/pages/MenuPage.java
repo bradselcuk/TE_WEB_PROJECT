@@ -13,8 +13,8 @@ public class MenuPage extends BasePage{
     public WebElement mens;
     @FindBy(xpath = "//a[contains(.,'ADIDAS')]")
     public WebElement adidas;
-    @FindBy(css = "[alt='Men`s Stretch Cotton Boxer Briefs 3 Pack Onix and Black']")
-    public WebElement firstBoxer;
+    @FindBy(css = "[alt='Men`s Stretch Cotton Boxer Briefs 3 Pack Bold Blue and Onix']")
+    public WebElement Boxer;
     @FindBy(xpath = "//a[contains(.,'LARGE')]")
     public WebElement large;
     @FindBy (css = ".addToCart")

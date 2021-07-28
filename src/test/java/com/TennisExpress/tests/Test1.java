@@ -30,19 +30,19 @@ public class Test1 extends BaseTest {
 
     }
 
-    @Test
+    @Test(description = "item purchase")
     public void MenuTest2() {
         extentTest = extentReports.createTest("Menu Test-1");
         MenuPage menuPage = new MenuPage();
         menuPage.apparelButton.click();
         menuPage.mens.click();
         menuPage.adidas.click();
-        menuPage.firstBoxer.click();
+        BrowserUtilities.wait(2);
+        menuPage.Boxer.click();
         BrowserUtilities.wait(2);
         menuPage.large.click();
-//        BrowserUtilities.wait(2);
-//        menuPage.addCard.click();
-
+        BrowserUtilities.wait(2);
+        menuPage.addCard.click();
         extentTest.pass("Done!");
     }
 }
